@@ -1,0 +1,30 @@
+{
+  "name": "react-1",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Mit",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "react",
+    "mit"
+  ],
+  "author": "Mit",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1"
+  },
+  "browserlist": [
+    "Last 2 version"
+  ]
+}
