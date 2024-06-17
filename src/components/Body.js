@@ -48,7 +48,7 @@ const Body = () => {
 
     const newData= await axios({
       method: 'post',
-      url: 'http://localhost:5000/api/forward-request',
+      url: 'https://react-backend-q22o.onrender.com/api/forward-request',
       data: {"lat":"21.18880","lng":"72.82930","nextOffset":"CJhlELQ4KIDQ0JfR8P2lJTCnEzgB","widgetOffset":{"NewListingView_category_bar_chicletranking_TwoRows":"","NewListingView_category_bar_chicletranking_TwoRows_Rendition":"","Restaurant_Group_WebView_PB_Theme":"","Restaurant_Group_WebView_SEO_PB_Theme":"","collectionV5RestaurantListWidget_SimRestoRelevance_food_seo":page<10 ? "0"+page : page.toString(),"inlineFacetFilter":"","restaurantCountWidget":""},"filters":{},"seoParams":{"seoUrl":"https://www.swiggy.com/","pageType":"FOOD_HOMEPAGE","apiName":"FoodHomePage"},"page_type":"DESKTOP_WEB_LISTING","_csrf":"s814UsIJInkO-4eTYLrfc1tOzNP3h9j43UtVZB9Q"},
     });
 
