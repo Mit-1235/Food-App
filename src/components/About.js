@@ -1,6 +1,6 @@
-import User from "./User";
-import Userclass from "./Userclass";
-import { Component } from "react";
+// import User from "./User";
+// import Userclass from "./Userclass";
+// import { Component } from "react";
 
 
 // const About = () => {
@@ -15,25 +15,25 @@ import { Component } from "react";
 //     )
 // }
 
-class About extends Component{
-    constructor(props){
-        super(props);
+// class About extends Component{
+//     constructor(props){
+//         super(props);
         // console.log("Parent constructor");
-    };
+    // };
 
-    componentDidMount(){
+    // componentDidMount(){
         // console.log("Parent component Did Mount");
-    }
+    // }
 
-    render(){
+    // render(){
         // console.log("Parent render");
-        return(
-            <div>
-                <Userclass name={"first"} />
-                <Userclass name={"second"} />
-            </div>
-        );
-    }
-}
+//         return(
+//             <div>
+//                 <Userclass name={"first"} />
+//                 <Userclass name={"second"} />
+//             </div>
+//         );
+//     }
+// }
 
-export default About;
+// export default About;
