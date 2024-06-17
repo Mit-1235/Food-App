@@ -14,7 +14,7 @@ const Cart = () => {
   };
 
   return (
-    <div className="w-[100%] py-10 ">
+    <div className="w-[100%] py-10 mt-16">
       {/* <h1 className="">Cart</h1> */}
       <div className="flex justify-around">
         {cartItems.length >= 1 && (<button

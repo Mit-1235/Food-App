@@ -59,8 +59,8 @@ const RestaurantMenu = () => {
   // console.log(categories);
 
   return (
-    <div className=" select-none menu flex flex-col justify-center items-center w-[100%] ">
-      <div className="basicInfo bg-gradient-to-b from-white to-gray-200 my-10 px-3 flex flex-col justify-center h-[250] w-[60%] items-start rounded-3xl">
+    <div className="select-none menu flex flex-col justify-center items-center w-[100%] bg-white">
+      <div className=" basicInfo bg-gradient-to-b from-white to-gray-200 mt-24 m-10 px-3 flex flex-col justify-center h-[250] w-[60%] items-start rounded-3xl">
         <h2 className="text-2xl font-bold pb-5">{name}</h2>
         <div className="details bg-white p-5 flex flex-col h-[160] w-[99%] ml-1 border-[1px] rounded-xl border-gray-300">
           <p className="font-semibold">
