@@ -18,7 +18,7 @@ const Header = () => {
   // console.log(cartItems);
 
   return (
-    <div className=" z-[1] bg-white fixed top-0 w-[100%] flex justify-between items-center h-[85px] shadow-sm">
+    <div className=" z-[1] bg-white fixed top-0 w-[100%] flex justify-between items-center h-[80px] shadow-sm">
       <div className="logo-container">
         <Link className="header-btn w-[92px] flex justify-center" to={"/"}>
           <img

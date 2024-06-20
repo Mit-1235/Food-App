@@ -15,9 +15,14 @@ import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import Cart from "./components/Cart";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
+
 
 const Grocery = lazy(() => import("./components/Grocery"));
-
+const Main = lazy(() => import("./components/Body"));
 const Applayout = () => {
     return (
         <Provider store={appStore}>
@@ -36,7 +41,7 @@ const appRouter = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Body />,
+                element: <Suspense fallback={<Shimmer></Shimmer>}><Main /></Suspense>,
             },
             {
                 path: "/about",
